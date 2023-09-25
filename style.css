@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;    
+}
+
+header, footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header-image {
+    width: 450px;
+    border-radius: 8px;
+}
+
+.links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-top {
+    display: flex;
+    padding: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    padding: 0;
+    font-size: 24px;
+}
+
+.header-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 36px;
+}
+
+.header-container {
+    padding: 48px;
+    flex-basis: 460px;
+}
+
+.header-text {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.header-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    cursor: pointer;
+    padding: 6px 32px;
+    border-radius: 8px;
+}
+
+.header-button {
+    background: #3882F6;
+    border: 1px solid #3882F6;
+    color: whitesmoke;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+.title {
+    padding: 50px 0;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1F2937;
+}
+
+img {
+    width: 180px;
+    border-radius: 10px;
+    border: 4px solid #3882F6;
+}
+
+.second-container {
+    display: flex;
+    gap: 52px;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.info {
+    flex-basis: 180px;
+    text-align: center;
+}
+
+.third {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 330px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+}
+
+.quote-author {
+    font-size: 18px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fourth {
+    margin: 100px 200px;
+}
+
+.fourth-container {
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.fourth-title {
+    font-size: 18px;
+    font-weight: 900;
+}
+
+.fourth-button {
+    font-weight: bold;
+    background: #3882F6;
+    border: 2px solid whitesmoke;
+    color: whitesmoke;
+    margin: 12px 0;
+    font-size: 18px;
+}
+
+footer {
+    font-size: 18px;
+    text-align: center;
+    padding: 30px 0;
+}
